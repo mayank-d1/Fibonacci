@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonacci Series</title>
+</head>
+<body>
+    {% if not num < 0 %}
+    <h1>Fibonacci Number at {{num}} position is {{data}}</h1>
+    {% else %}
+    <h1>{{data}}</h1>
+    {% endif %}
+    {% if time %}
+    <h1>Time taken to calculate is {{time}} ms</h1>
+    {% endif %}
+</body>
+</html>
